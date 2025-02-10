@@ -15,6 +15,7 @@ public class CalcController {
 	public int add(@RequestParam int a, @RequestParam int b) {
 		System.out.println("Test changes in STS Master branch");
 		System.out.println("New Test");
+		System.out.println("Old Test");
 		return a + b;
 		
 	}
