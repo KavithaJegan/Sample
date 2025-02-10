@@ -22,6 +22,7 @@ public class CalcController {
 	
 	@GetMapping("/sub/{a}/{b}")
 	public int sub(@PathVariable int a, @PathVariable int b) {
+		System.out.println("Old Test");
 		return a - b;
 	}
 	
