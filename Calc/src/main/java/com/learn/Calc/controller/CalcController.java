@@ -13,6 +13,7 @@ public class CalcController {
 	
 	@GetMapping("/add")
 	public int add(@RequestParam int a, @RequestParam int b) {
+		System.out.println("Do not delete this line");
 		System.out.println("Test changes in STS Master branch");
 		System.out.println("New Test");
 		System.out.println("Old Test");
