@@ -14,6 +14,7 @@ public class CalcController {
 	@GetMapping("/add")
 	public int add(@RequestParam int a, @RequestParam int b) {
 		System.out.println("This is a mandatory line");
+		System.out.println("This is an important line");
 		return a + b;
 		
 	}
