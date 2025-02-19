@@ -21,6 +21,7 @@ public class CalcController {
 	
 	@GetMapping("/sub/{a}/{b}")
 	public int sub(@PathVariable int a, @PathVariable int b) {
+		System.out.println("This is a mandatory Git line");
 		return a - b;
 	}
 	
