@@ -13,6 +13,7 @@ public class CalcController {
 	
 	@GetMapping("/add")
 	public int add(@RequestParam int a, @RequestParam int b) {
+		System.out.println("This is a mandatory line");
 		return a + b;
 		
 	}
