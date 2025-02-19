@@ -1,4 +1,4 @@
-package com.learn.Calc.controller;
+package src.main.java.com.learn.Calc.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -21,6 +21,7 @@ public class CalcController {
 	
 	@GetMapping("/sub/{a}/{b}")
 	public int sub(@PathVariable int a, @PathVariable int b) {
+		System.out.println("This is a mandatory line");
 		return a - b;
 	}
 	
